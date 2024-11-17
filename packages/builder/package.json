@@ -1,0 +1,33 @@
+{
+  "name": "@usualoma/mt-plugin-builder",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "mt-plugin-builder": "./dist/builder.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "Build Movable Type plugins via CLI",
+  "dependencies": {
+    "archiver": "^5.3.1",
+    "commander": "^11.0.0",
+    "esbuild": "^0.19.0",
+    "js-yaml": "^4.1.0"
+  },
+  "devDependencies": {
+    "@types/archiver": "^5.3.2",
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^20.17.6",
+    "typescript": "^5.0.0"
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ]
+}
