@@ -1,6 +1,6 @@
 {
   "name": "@usualoma/create-mt-plugin-builder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create MT Plugin Builder project",
   "main": "dist/index.js",
   "bin": {

@@ -85,6 +85,7 @@ async function main() {
   console.log(`✨ Created ${projectName} successfully!`);
   console.log('To get started:');
   console.log(`  cd ${projectName}`);
+  console.log('  npm run build');
 }
 
 main().catch(console.error); 
