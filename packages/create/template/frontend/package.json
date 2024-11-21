@@ -1,5 +1,6 @@
 {
   "name": "",
+  "type": "module",
   "version": "0.0.0",
   "private": true,
   "description": "Plugin for Movable Type",
