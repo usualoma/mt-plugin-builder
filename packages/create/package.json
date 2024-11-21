@@ -1,6 +1,6 @@
 {
   "name": "@usualoma/create-mt-plugin-builder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create MT Plugin Builder project",
   "main": "dist/index.js",
   "bin": {
@@ -20,4 +20,4 @@
     "@types/fs-extra": "^11.0.1",
     "typescript": "^5.0.0"
   }
-} 
+}
