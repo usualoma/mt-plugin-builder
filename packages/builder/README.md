@@ -5,13 +5,13 @@ A build tool for Movable Type plugin development.
 ## Installation
 
 ```
-npm install --save-dev @movabletype/mt-plugin-builder
+npm install --save-dev @usualoma/mt-plugin-builder
 ```
 
 or just use npx:
 
 ```
-npx @movabletype/mt-plugin-builder
+npx @usualoma/mt-plugin-builder
 ```
 
 ## Usage
@@ -21,7 +21,7 @@ npx @movabletype/mt-plugin-builder
 Create `mt-plugin.config.ts` in your project root:
 
 ```ts
-import { defineConfig } from '@movabletype/mt-plugin-builder';
+import { defineConfig } from '@usualoma/mt-plugin-builder';
 
 export default defineConfig({
   script: 'main.js',
