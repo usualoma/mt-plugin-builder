@@ -67,6 +67,7 @@ async function main() {
 
   // Copy template
   await fs.copy(templateDir, targetDir);
+  await fs.rename(path.join(targetDir, 'dot.gitignore'), path.join(targetDir, '.gitignore'));
 
   // Update package.json name
   const pkgPath = path.join(targetDir, 'package.json');
